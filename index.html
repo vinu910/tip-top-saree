@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tip Top Collection | Premium Ethnic Wear</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo-container">
+    <img src="4301b89c-97ca-44b6-b281-befa4c02eb3d.png" alt="Tip Top Logo" class="logo-img" onerror="this.src='https://ui-avatars.com/api/?name=TT&background=4a0404&color=fff'">
+    <div class="brand-name">Tip Top Collection</div>
+  </div>
+  <div class="nav-categories" id="navMenu">
+    <button class="nav-btn active" data-cat="saree" onclick="setCategory('saree')">Sarees</button>
+    <button class="nav-btn" data-cat="gown" onclick="setCategory('gown')">Gowns</button>
+    <button class="nav-btn" data-cat="lehenga" onclick="setCategory('lehenga')">Lehengas</button>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Tip Top Fashion Collection</h1>
+  
+  
+  <div class="actions">
+    <a href="https://www.google.com/maps/@28.7005924,77.0508899,3a,90y,230.9h,84.12t/data=!3m7!1e1!3m5!1sBRcW6VRhpWCmZXuoPu-Kag!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D5.878658219688617%26panoid%3DBRcW6VRhpWCmZXuoPu-Kag%26yaw%3D230.90369563047486!7i13312!8i6656?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D" class="action-btn btn-map" target="_blank" rel="noopener"><i class="fa-solid fa-location-dot"></i> Visit Store Location</a>
+    <a href="https://www.google.com/maps/place/TIP+TOP+Collection/@28.7004873,77.0508629,17z/data=!3m1!4b1!4m6!3m5!1s0x390d07fd5e2a2111:0x96f9fdfa65f42c69!8m2!3d28.7004873!4d77.0508629!16s%2Fg%2F11gxx7j2l0?entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D" class="action-btn btn-img" target="_blank" rel="noopener"><i class="fa-solid fa-image"></i> View Store Images</a>
+  </div>
+</section>
+
+<section class="filter-section">
+  <h2 id="categoryTitle">Exquisite Sarees</h2>
+  <div class="color-filters" id="colorFilters">
+    <!-- Buttons injected via JS -->
+  </div>
+</section>
+
+<section class="gallery-container">
+  <div class="gallery" id="galleryGrid">
+    <!-- Images injected via JS -->
+  </div>
+</section>
+
+<!-- Modal -->
+<div id="imageModal" class="modal" onclick="closeModal(event)">
+  <span class="close-modal">&times;</span>
+  <img id="modalImg" class="modal-content" onclick="event.stopPropagation()">
+</div>
+
+<footer>
+  <div class="footer-content">
+    <h3>Tip Top Fashion Collection</h3>
+    <p><i class="fa-solid fa-location-crosshairs"></i> Nagloi, Near Police Station — Zarur Aaiye</p>
+    <p><i class="fa-solid fa-phone"></i> +91 9953098555</p>
+    <p style="margin-top:20px; font-style: italic;">Hamare yaha har design ki Saree, Gown or Lehenga milte hai. 💐</p>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2026 Tip Top Collection. Crafted with elegance.
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
